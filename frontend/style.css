@@ -1,0 +1,19 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #253238;
+}
+section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+footer {
+  padding: 24px;
+  text-align: center;
+  background: #e8edf4;
+  font-size: 0.9rem;
+}
