@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
   margin: 0;
-  background: #f4f7fb;
+  background: #28aee6;
   color: #253238;
 }
 footer {
@@ -15,11 +15,10 @@ footer {
   font-family: sans-serif;
   margin-top: 80px;
   margin-bottom: 20px;
-  color: cornflowerblue;
+  color: darkblue;
   font-size: xxx-large;
   padding: 20px;
   border-radius: 10px;
-  background-color: darkseagreen;
 }
 .grila-sectiuni{
   display: grid;
@@ -36,4 +35,12 @@ padding-bottom: 20px;
 padding-left: 25px;
   margin-bottom: 24px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+.buton-rezervare{
+  background: cornflowerblue;
+  text-align: right;
+  border-radius: 10px;
+  padding: 8px;
+  display: block;
+  margin-left: auto;
 }
