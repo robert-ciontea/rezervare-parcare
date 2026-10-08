@@ -4,16 +4,6 @@ body {
   background: #f4f7fb;
   color: #253238;
 }
-section {
-  background: #fff;
-  border-radius: 12px;
-  padding-top: 10px;
-padding-right: 15px;
-padding-bottom: 20px;
-padding-left: 25px;
-  margin-bottom: 24px;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
-}
 footer {
   padding: 24px;
   text-align: center;
@@ -30,4 +20,20 @@ footer {
   padding: 20px;
   border-radius: 10px;
   background-color: darkseagreen;
+}
+.grila-sectiuni{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+section {
+  background: #fff;
+  border-radius: 12px;
+  padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 20px;
+padding-left: 25px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
 }
