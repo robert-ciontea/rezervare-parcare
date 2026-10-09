@@ -26,8 +26,9 @@ footer {
   gap: 20px;
   padding: 20px;
 }
+
 section {
-  background: #fff;
+  background-color: var(--culoare-background,green);
   border-radius: 12px;
   padding-top: 10px;
 padding-right: 15px;
@@ -43,4 +44,13 @@ padding-left: 25px;
   padding: 8px;
   display: block;
   margin-left: auto;
+}
+
+buton-culoare-rosie {
+  --culoare-background: red;
+  color: white;
+}
+buton-culoare-rezervat{
+  --culoare-background: blueviolet;
+  color: white;
 }
